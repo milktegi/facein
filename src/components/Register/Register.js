@@ -34,7 +34,6 @@ class Register extends React.Component {
         name: this.state.name
       })
     })
-    // 2. then res  
     .then(response => response.json())
     .then(user => {
       if(user.id){
